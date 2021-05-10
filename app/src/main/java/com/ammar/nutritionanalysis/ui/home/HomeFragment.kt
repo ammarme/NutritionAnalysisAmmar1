@@ -29,9 +29,9 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private fun initViews() {
         // TODO: 5/11/2021 Just For testing
-        ingredientEt.setText(
-            "1 fresh ham, about 18 pounds\n 7 cloves garlic, minced\n 1 tablespoon caraway seeds, crushed\n 4 teaspoons salt\n Freshly ground pepper to taste\n 1 teaspoon olive oil\n 1 medium onion, peeled and chopped\n 3 cups sourdough rye bread, cut into 1/2-inch cubes\n 1 1/4 cups coarsely chopped pitted prunes\n 1 1/4 cups coarsely chopped dried apricots\n 1 large tart apple, peeled, cored and cut into 1/2-inch cubes\n 2 teaspoons chopped fresh rosemary\n 1 egg, lightly beaten\n 1 cup chicken broth, homemade or low-sodium canned"
-        )
+//        ingredientEt.setText(
+//            "1 fresh ham, about 18 pounds\n 7 cloves garlic, minced\n 1 tablespoon caraway seeds, crushed\n 4 teaspoons salt\n Freshly ground pepper to taste\n 1 teaspoon olive oil\n 1 medium onion, peeled and chopped\n 3 cups sourdough rye bread, cut into 1/2-inch cubes\n 1 1/4 cups coarsely chopped pitted prunes\n 1 1/4 cups coarsely chopped dried apricots\n 1 large tart apple, peeled, cored and cut into 1/2-inch cubes\n 2 teaspoons chopped fresh rosemary\n 1 egg, lightly beaten\n 1 cup chicken broth, homemade or low-sodium canned"
+//        )
 
         ingredientEt.doOnTextChanged { text, _, _, _ ->
             analyzeButton.isEnabled = !text.isNullOrBlank()
